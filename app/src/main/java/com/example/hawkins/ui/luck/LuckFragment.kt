@@ -8,9 +8,11 @@ import android.view.ViewGroup
 import com.example.hawkins.R
 import com.example.hawkins.databinding.FragmentHoroscopeBinding
 import com.example.hawkins.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
+
 
     private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!

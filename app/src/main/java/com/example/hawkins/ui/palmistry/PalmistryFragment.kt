@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.example.hawkins.R
 import com.example.hawkins.databinding.FragmentLuckBinding
 import com.example.hawkins.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null
