@@ -75,7 +75,7 @@ dependencies {
 
     //Camera X
     implementation("androidx.camera:camera-core:${cameraVersion}")
-    implementation("androidx.camera:camera-camara2:${cameraVersion}")
+    implementation("androidx.camera:camera-camera2:${cameraVersion}")
     implementation("androidx.camera:camera-lifecycle:${cameraVersion}")
     implementation("androidx.camera:camera-view:${cameraVersion}")
     implementation("androidx.camera:camera-extensions:${cameraVersion}")
